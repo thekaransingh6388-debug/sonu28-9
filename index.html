@@ -1,238 +1,335 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gujarati Trader</title>
-    <meta name="description" content="India's Most Trusted Stock Market Community" />
-    <meta property="og:title" content="Gujarati Trader" />
-    <meta property="og:description" content="India's Most Trusted Stock Market Community" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Haji Salman - My Blog</title>
+	<meta name='robots' content='index, max-snippet:-1, max-image-preview:large, max-video-preview:-1, follow' />
+	<meta name="google" content="nositelinkssearchbox">
+	<link rel="canonical" href="https://salman-memon.site/" />
+	<meta name="description" content="Haji Salman – Premium Trading Community FREE EDUCATIONAL CHANNEL HAJI SALMAN Learn Professional Price Action & Market Logic JOIN FREE [...]">
+	
+	<!-- Meta Pixel Code (NEW PIXEL) -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '953335431161796');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=953335431161796&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code -->
 
-    <!-- Meta Pixel Code (NEW - ID: 953335431161796) -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '953335431161796');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=953335431161796&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+	<!-- FontAwesome for Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
 
-    <script type="module" crossorigin src="/assets/index-BKEVZ4yY.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B07HH1o_.css">
-  </head>
-  <body>
-    <!-- Meta Pixel NoScript (NEW) -->
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=953335431161796&ev=PageView&noscript=1"
-    /></noscript>
+		body {
+			background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			padding: 20px;
+		}
 
-    <!-- Main Content -->
-    <div id="root" style="
-      min-height: 100vh;
-      background: #0a0a0a;
-      color: #ffffff;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 40px 20px;
-      text-align: center;
-      box-sizing: border-box;
-    ">
+		.container {
+			background: linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.8));
+			backdrop-filter: blur(16px);
+			-webkit-backdrop-filter: blur(16px);
+			width: 100%;
+			max-width: 440px;
+			border-radius: 28px;
+			box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+			text-align: center;
+			overflow: hidden;
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			position: relative;
+			padding: 30px 24px;
+		}
 
-      <!-- Glowing Logo -->
-      <div style="
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        background: #ffffff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 30px rgba(255, 200, 0, 0.6), 0 0 60px rgba(255, 200, 0, 0.3);
-        margin-bottom: 30px;
-        overflow: hidden;
-      ">
-        <img 
-          src="https://karanmetalabe.com/wp-content/uploads/2026/06/wordpress_1200x1200-1.jpg" 
-          alt="Gujarati Trader Logo" 
-          style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"
-        />
-      </div>
+		/* Top Badge */
+		.top-badge {
+			background: linear-gradient(135deg, #ef4444, #dc2626);
+			color: white;
+			font-size: 11px;
+			font-weight: 800;
+			letter-spacing: 1px;
+			padding: 6px 16px;
+			border-radius: 20px;
+			display: inline-block;
+			margin-bottom: 22px;
+			box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+			text-transform: uppercase;
+		}
 
-      <!-- Brand Name -->
-      <h1 style="
-        font-size: 2rem;
-        font-weight: 700;
-        margin: 0 0 10px 0;
-        letter-spacing: 1px;
-      ">
-        <span style="color: #2ea3ff;">◆</span>
-        <span style="color: #2ea3ff;">ગુજરાતી</span>
-        <span style="color: #ff2d6f;">TRADER</span>
-        <span style="color: #2ea3ff;">◆</span>
-      </h1>
+		/* Profile Section */
+		.profile-section {
+			margin-bottom: 22px;
+		}
 
-      <!-- Countdown Text -->
-      <p id="countdown" style="
-        font-size: 1.05rem;
-        color: #b0b0b0;
-        margin: 15px 0 5px 0;
-      ">Auto joining in <span id="timer">23</span> seconds...</p>
+		.profile-img-container {
+			width: 110px;
+			height: 110px;
+			margin: 0 auto 16px auto;
+			border-radius: 50%;
+			padding: 3px;
+			background: linear-gradient(135deg, #3b82f6, #60a5fa, #9335ff);
+			box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+		}
 
-      <p style="
-        font-size: 1rem;
-        color: #b0b0b0;
-        margin: 0 0 25px 0;
-      ">If not opened, click below 👇</p>
+		.profile-img {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			object-fit: cover;
+			object-position: center;
+			display: block;
+		}
 
-      <!-- Join Button -->
-      <a 
-        id="joinBtn"
-        href="https://t.me/+kQ-FvhYXdLljYmU1" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        style="
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          gap: 10px;
-          background: linear-gradient(90deg, #ff2d6f 0%, #b14cff 50%, #2ea3ff 100%);
-          color: #ffffff;
-          font-size: 1.15rem;
-          font-weight: 700;
-          padding: 18px 50px;
-          border-radius: 50px;
-          text-decoration: none;
-          box-shadow: 0 0 25px rgba(177, 76, 255, 0.5), 0 0 50px rgba(46, 163, 255, 0.3);
-          transition: transform 0.2s ease, box-shadow 0.2s ease;
-          width: 100%;
-          max-width: 420px;
-          box-sizing: border-box;
-        "
-        onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 0 35px rgba(177, 76, 255, 0.7), 0 0 70px rgba(46, 163, 255, 0.5)';"
-        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 25px rgba(177, 76, 255, 0.5), 0 0 50px rgba(46, 163, 255, 0.3)';"
-        onclick="trackJoin();"
-      >
-        <!-- Telegram Icon -->
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.82 17.02C14.23 17.07 13.78 16.63 13.21 16.26C12.32 15.68 11.81 15.32 10.95 14.75C9.96 14.1 10.62 13.74 11.19 13.15C11.34 12.99 13.91 10.65 13.96 10.43C13.97 10.4 13.97 10.3 13.91 10.25C13.85 10.2 13.77 10.22 13.7 10.23C13.61 10.25 10.64 12.21 10.56 12.27C10.48 12.33 10.42 12.37 10.36 12.37C10.29 12.37 10.23 12.34 10.15 12.3C10.07 12.26 9.68 12.13 9.51 12.06C9.34 11.99 9.18 11.95 9.03 11.95C8.88 11.95 8.73 11.98 8.61 12.04L8.56 12.07C8.41 12.14 8.31 12.2 8.28 12.3C8.25 12.4 8.25 12.52 8.28 12.67C8.31 12.82 8.4 13.1 8.56 13.51C9.06 15.02 9.74 16.14 10.6 16.88C11.46 17.62 12.25 18.01 12.97 18.05C13.69 18.09 14.32 17.83 14.86 17.27C15.4 16.71 15.83 15.86 16.15 14.71C16.47 13.56 16.64 12.6 16.64 11.83C16.64 11.06 16.57 10.5 16.42 10.13C16.27 9.76 16.04 9.5 15.74 9.35C15.44 9.2 15.06 9.13 14.6 9.13C14.14 9.13 13.7 9.2 13.28 9.35C12.86 9.5 12.5 9.7 12.2 9.95C11.9 10.2 11.7 10.45 11.6 10.7C11.5 10.95 11.45 11.2 11.45 11.45C11.45 11.7 11.5 11.95 11.6 12.2C11.7 12.45 11.9 12.7 12.2 12.95C12.5 13.2 12.86 13.4 13.28 13.55C13.7 13.7 14.14 13.77 14.6 13.77C15.06 13.77 15.44 13.7 15.74 13.55C16.04 13.4 16.27 13.14 16.42 12.77C16.57 12.4 16.64 11.84 16.64 11.07V8.8Z" fill="#ffffff"/>
-        </svg>
-        JOIN OUR TELEGRAM
-      </a>
+		.profile-section h1 {
+			font-size: 24px;
+			font-weight: 800;
+			color: #ffffff;
+			margin-bottom: 6px;
+			letter-spacing: 0.8px;
+		}
 
-      <!-- Main Heading -->
-      <h2 style="
-        font-size: 1.6rem;
-        font-weight: 700;
-        margin: 45px 0 15px 0;
-        line-height: 1.3;
-        max-width: 500px;
-        color: #ffffff;
-      ">India's Most Trusted Stock Market<br/>Community</h2>
+		.subtitle {
+			font-size: 13px;
+			color: #94a3b8;
+			line-height: 1.4;
+			font-weight: 500;
+		}
 
-      <!-- Sub Heading -->
-      <p style="
-        font-size: 1rem;
-        color: #a0a0a0;
-        margin: 0 0 35px 0;
-        max-width: 500px;
-      ">Free Signals • Daily Analysis • Smart Risk Management</p>
+		/* Telegram Button */
+		.telegram-btn {
+			background: linear-gradient(135deg, #0088cc, #00aaff);
+			color: white;
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 12px;
+			padding: 16px;
+			border-radius: 16px;
+			font-weight: 700;
+			font-size: 14px;
+			box-shadow: 0 8px 25px rgba(0, 136, 204, 0.45);
+			transition: all 0.3s ease;
+			cursor: pointer;
+			border: none;
+			width: 100%;
+		}
 
-      <!-- Feature Card -->
-      <div style="
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 20px;
-        padding: 30px 25px;
-        max-width: 500px;
-        width: 100%;
-        box-sizing: border-box;
-        text-align: left;
-      ">
-        <div style="display: flex; align-items: center; margin-bottom: 22px;">
-          <span style="font-size: 1.3rem; margin-right: 15px; color: #2ea3ff;">📈</span>
-          <span style="font-size: 1rem; color: #e0e0e0; font-weight: 500;">Intraday, Options, NIFTY &amp; BANKNIFTY Calls</span>
-        </div>
-        <div style="display: flex; align-items: center; margin-bottom: 22px;">
-          <span style="font-size: 1.3rem; margin-right: 15px; color: #2ea3ff;">🎯</span>
-          <span style="font-size: 1rem; color: #e0e0e0; font-weight: 500;">Accurate Entry, Exit &amp; Target Levels</span>
-        </div>
-        <div style="display: flex; align-items: center; margin-bottom: 22px;">
-          <span style="font-size: 1.3rem; margin-right: 15px; color: #2ea3ff;">🛡️</span>
-          <span style="font-size: 1rem; color: #e0e0e0; font-weight: 500;">Risk Management Focused Strategy</span>
-        </div>
-        <div style="display: flex; align-items: center;">
-          <span style="font-size: 1.3rem; margin-right: 15px; color: #2ea3ff;">🔥</span>
-          <span style="font-size: 1rem; color: #e0e0e0; font-weight: 500;">Daily Free &amp; Premium Market Analysis</span>
-        </div>
-      </div>
+		.telegram-btn:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 12px 30px rgba(0, 136, 204, 0.65);
+		}
 
-      <!-- Footer -->
-      <p style="
-        font-size: 0.8rem;
-        color: #666;
-        margin-top: 40px;
-      ">© 2026 Gujarati Trader • All Rights Reserved</p>
+		.telegram-btn i {
+			font-size: 20px;
+		}
 
-    </div>
+		.instant-access {
+			font-size: 12px;
+			color: #34d399;
+			margin: 14px 0 22px 0;
+			font-weight: 700;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 6px;
+			text-shadow: 0 0 10px rgba(52, 211, 153, 0.3);
+		}
 
-    <!-- Auto‑redirect & Event Tracking -->
-    <script>
-      const TELEGRAM_LINK = "https://t.me/+kQ-FvhYXdLljYmU1";
-      const REDIRECT_SECONDS = 23;
-      let secondsLeft = REDIRECT_SECONDS;
-      let redirectTriggered = false; // prevent double tracking
+		/* Stats Box */
+		.stats-box {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.06);
+			border-radius: 16px;
+			padding: 14px 10px;
+			margin-bottom: 18px;
+		}
 
-      // Track click event (using new pixel ID automatically)
-      function trackJoin() {
-        if (typeof fbq === 'function') {
-          fbq('track', 'Lead');
-          fbq('track', 'Subscribe');
-          fbq('trackCustom', 'JoinTelegram');
-        }
-      }
+		.stat-item h3 {
+			font-size: 16px;
+			color: #ffffff;
+			font-weight: 800;
+		}
 
-      // Auto redirect after countdown
-      const timerEl = document.getElementById('timer');
+		.stat-item p {
+			font-size: 10px;
+			color: #94a3b8;
+			font-weight: 700;
+			margin-top: 3px;
+			letter-spacing: 0.5px;
+		}
 
-      const interval = setInterval(() => {
-        secondsLeft--;
-        if (timerEl) timerEl.textContent = secondsLeft;
-        if (secondsLeft <= 0) {
-          clearInterval(interval);
-          if (!redirectTriggered) {
-            redirectTriggered = true;
-            trackJoin();
-            window.location.href = TELEGRAM_LINK;
-          }
-        }
-      }, 1000);
+		.stat-divider {
+			width: 1px;
+			height: 25px;
+			background-color: rgba(255, 255, 255, 0.1);
+		}
 
-      // Also track if user clicks the button manually
-      document.getElementById('joinBtn').addEventListener('click', function(e) {
-        // trackJoin is already called in onclick, but we ensure it's not duplicated.
-        // The onclick attribute already calls trackJoin(), so we don't call it again here.
-        // However, if for some reason inline onclick fails, we can track here too.
-        // But to avoid double tracking, we check if already redirected.
-        if (!redirectTriggered) {
-          redirectTriggered = true; // prevent auto redirect from also firing
-          trackJoin();
-          // Do not prevent default – allow the link to open
-        }
-      });
-    </script>
-  </body>
+		/* Feature List Cards */
+		.feature-card {
+			display: flex;
+			align-items: center;
+			gap: 14px;
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.06);
+			padding: 15px 16px;
+			border-radius: 16px;
+			margin-bottom: 12px;
+			font-size: 13px;
+			font-weight: 600;
+			color: #f1f5f9;
+			text-align: left;
+			transition: 0.3s;
+		}
+
+		.feature-card:hover {
+			background: rgba(255, 255, 255, 0.06);
+			border-color: rgba(59, 130, 246, 0.3);
+			transform: translateY(-1px);
+		}
+
+		.feature-card i {
+			font-size: 16px;
+			color: #38bdf8;
+			background: rgba(56, 189, 248, 0.1);
+			padding: 10px;
+			border-radius: 12px;
+		}
+
+		/* Disclaimer */
+		.disclaimer-box {
+			background-color: rgba(245, 158, 11, 0.06);
+			border: 1px solid rgba(245, 158, 11, 0.2);
+			padding: 14px;
+			border-radius: 16px;
+			text-align: left;
+			font-size: 11px;
+			color: #cbd5e1;
+			margin-top: 20px;
+			line-height: 1.4;
+		}
+
+		.disclaimer-box strong {
+			color: #fbbf24;
+			display: flex;
+			align-items: center;
+			gap: 6px;
+			margin-bottom: 4px;
+			font-size: 12px;
+		}
+
+		/* Footer */
+		.footer {
+			font-size: 11px;
+			color: #64748b;
+			margin-top: 20px;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<!-- Top Badge -->
+		<div class="top-badge">FREE EDUCATIONAL CHANNEL</div>
+
+		<!-- Profile Section -->
+		<div class="profile-section">
+			<div class="profile-img-container">
+				<img decoding="async" src="https://salman-memon.site/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-11-at-3.40.04-PM.jpeg" alt="Haji Salman" class="profile-img">
+			</div>
+			<h1>HAJI SALMAN</h1>
+			<p class="subtitle">Learn Professional Price Action & Market Logic</p>
+		</div>
+
+		<!-- Telegram Button with Event Tracking -->
+		<a href="https://t.me/+sTS1Dq187wM5NDM1" class="telegram-btn" id="telegramJoinBtn" onclick="fbq('track', 'Lead');">
+			<i class="fa-brands fa-telegram"></i> JOIN FREE TELEGRAM CHANNEL
+		</a>
+
+		<div class="instant-access">
+			<i class="fa-solid fa-circle-check"></i> Instant Access • 100% Free Forever
+		</div>
+
+		<!-- Stats Box -->
+		<div class="stats-box">
+			<div class="stat-item">
+				<h3>100%</h3>
+				<p>FREE ACCESS</p>
+			</div>
+			<div class="stat-divider"></div>
+			<div class="stat-item">
+				<h3>Daily</h3>
+				<p>ANALYSIS</p>
+			</div>
+			<div class="stat-divider"></div>
+			<div class="stat-item">
+				<h3>Verified</h3>
+				<p>LEARNING</p>
+			</div>
+		</div>
+
+		<!-- Feature List -->
+		<div class="feature-card">
+			<i class="fa-solid fa-chart-line"></i>
+			<span>Daily Price Action & Technical Analysis</span>
+		</div>
+
+		<div class="feature-card">
+			<i class="fa-solid fa-shield-halved"></i>
+			<span>Risk Management & Capital Protection</span>
+		</div>
+
+		<div class="feature-card">
+			<i class="fa-solid fa-brain"></i>
+			<span>Trading Psychology & Mindset Rules</span>
+		</div>
+
+		<!-- Disclaimer -->
+		<div class="disclaimer-box">
+			<strong><i class="fa-solid fa-circle-info"></i> Educational Disclaimer</strong>
+			We are NOT SEBI registered. All content is strictly for educational purposes. We do not provide buy/sell tips or guaranteed returns.
+		</div>
+
+		<!-- Footer -->
+		<div class="footer">
+			Managed By KARAN AGENCY
+		</div>
+	</div>
+
+	<script>
+		document.getElementById('telegramJoinBtn').addEventListener('click', function() {
+			// Additional tracking if needed
+			// fbq('track', 'Contact');
+		});
+	</script>
+
+</body>
 </html>
